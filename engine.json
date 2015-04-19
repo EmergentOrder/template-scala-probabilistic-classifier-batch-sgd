@@ -1,0 +1,20 @@
+{
+  "id": "default",
+  "description": "Default settings",
+  "engineFactory": "org.template.classification.ClassificationEngine",
+  "datasource": {
+    "params": {
+      "appName": "LRSGD"
+    }
+  },
+  "algorithms": [
+    {
+      "name": "logisticSGD",
+      "params": {
+        "maxIter": 100,
+        "regParam": 0.01,
+        "stepSize": 1.0
+      }
+    }
+  ]
+}
